@@ -1,0 +1,97 @@
+.jumbotron{
+padding-top: 9rem;
+background-color: #040404a9;   
+font-family: "Lucida Console",monospace ,serif; 
+}
+
+#menu {
+    background-color: #040404a9; 
+ }
+
+ /* Custom CSS for Contact Section */
+#contact {
+    padding: 60px 0;
+  }
+  
+  #contact h2 {
+    color: #000000;
+  }
+  
+  #contact form {
+    margin-bottom: 30px;
+  }
+  
+  #contact .accordion {
+    background-color: #575757;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact .accordion .accordion-button {
+    background-color: #505153;
+    color: #000000;
+  }
+  
+  #contact .accordion .accordion-button:not(.collapsed) {
+    background-color: #3c3f41;
+  }
+  
+  #contact .accordion .accordion-button:hover {
+    background-color: #858789;
+  }
+  
+  #contact .accordion .accordion-body {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  #contact .accordion .accordion-body code {
+    background-color: #f1f1f1;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  /* Custom CSS for menu section */
+#menu .card {
+    border: none;
+    transition: transform 0.3s;
+    box-shadow: 10px 10px 10px rgb(185, 185, 185);
+  }
+  
+  #menu .card:hover {
+    transform: translateY(-2rem);
+  }
+  
+  #menu .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 27rem; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  #menu .card-body {
+    background-color: #f8f9fa9d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  #menu .card-title {
+    font-weight: bold;
+  }
+  
+  #menu .card-text {
+    font-size: 14px;
+  }
+  
+  /* Optional: Add padding to the container for better spacing */
+  #menu .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #clock {
+    font-size: 1rem;
+    color: white; /* Set font color to white */
+    text-align: center;
+    width: 2rem;
+    margin: 1rem;
+}
